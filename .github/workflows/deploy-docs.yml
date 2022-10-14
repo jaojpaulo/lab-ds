@@ -1,6 +1,8 @@
 name: Deploy Storybook
 
-on: [push]
+on: 
+  branches:
+    - master
 
 jobs:
   build-and-deploy:
